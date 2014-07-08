@@ -2,7 +2,7 @@ import sys
 if not 'argv' in sys.__dict__:
   sys.argv = ['na']
 
-import roslib; roslib.load_manifest('dynamic_graph_actionlib')
+import roslib
 import rospy
 import actionlib
 
