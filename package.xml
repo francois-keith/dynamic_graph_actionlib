@@ -1,0 +1,33 @@
+<package>
+  <name>dynamic_graph_actionlib</name>
+  <version>1.0.0</version>
+  <description>
+
+     Actionlib allows the execution of complex robotics tasks such as
+     door opening. Dynamic-graph allows the implementation of flexible
+     robot controllers. This package makes the link between this
+     supervision level and a dynamic-graph based robot controller.
+
+  </description>
+  <maintainer email="hpp@laas.fr">hpp@laas.fr</maintainer>
+  <author email="hpp@laas.fr">hpp@laas.fr</author>
+
+  <license>BSD</license>
+  <url>http://ros.org/wiki/dynamic_graph_actionlib</url>
+
+  <export>
+    <rosdoc config="rosdoc.yaml" />
+  </export>
+
+  <buildtool_depend>catkin</buildtool_depend> 
+
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+</package>
